@@ -1,6 +1,7 @@
 ## Master / unreleased
 
  - [FEATURE] `chunckenc.Chunk.Iterator` method now takes a `chunckenc.Iterator` interface as an argument for reuse.
+ - [CHANGE] `Series` interface allows return chunk iterator that allows iterating over encoded chunks.
 
 ## 0.9.1
 
